@@ -1,7 +1,47 @@
 .btn {
-    margin: 0 $s-size;
-}
+    text-decoration: none;
+    border: none;
+    color: #2a2a2a;
+    display:inline-block;
+    border: .1em solid $sky-blue;
+    background-color: $platinum;
+    padding: .35em 1.2em;
+    border-radius: .12em;
+    box-sizing: border-box;
+    transition: all .2s;
+    font-size: 1rem;
+    text-transform: uppercase;
+    &:hover {
+        background-color: $sky-blue;
+    }
 
+    @media (min-width: $desktop-breakpoint) {
+        padding: .70em, 2.4em;
+        font-size: $f-size-s;
+      }
+}
+.twitter {
+    display: flex;
+    justify-content: center;
+}
 .twitter-btn {
     margin: 0 $s-size;
+    text-decoration: none;
+    font-size: 2rem;
+    color: $sky-blue;
+    @media (min-width: $desktop-breakpoint) {
+        font-size: 3rem;
+      }
+}
+
+.seperator {
+    display: flex;
+    justify-content: center;
+}
+
+.bar {
+    width: 4rem;
+    height: .1rem;
+    color: black;
+    border-bottom: .3rem solid $grey;
 }

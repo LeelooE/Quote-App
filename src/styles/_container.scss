@@ -1,13 +1,16 @@
 .container {
   margin: $m-size;
   padding: $s-size;
+  color: #2a2a2a;
   background-color: $platinum;
   align-items: center;
   display: flex;
   flex-direction: column;
   font-family: $mont;
+  border-radius: .12em;
   @media (min-width: $desktop-breakpoint) {
     margin: $xl-size;
+    font-size: $f-size-s;
   }
 }
 

@@ -2,8 +2,8 @@ import React from 'react';
 
 const FirstButton = (props) => {
     return (
-        <div className='btn'>
-            <button onClick={props.loadQuote}>Get a Quote!</button>
+        <div>
+            <button className='btn' onClick={props.loadQuote}>New Quote</button>
         </div>
     )
 }

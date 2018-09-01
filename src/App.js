@@ -27,7 +27,9 @@ class App extends Component {
       <div className="app">
         <Title />
         <div className="container">
+        {this.state.twitter &&
           <Container quote={this.state.quote} author={this.state.author} />
+        }
           <div className="container__buttons">
             <FirstButton loadQuote={this.getQuote} />
             <div>
