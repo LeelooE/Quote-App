@@ -1,0 +1,12 @@
+@import './styles/settings';
+@import './styles/title';
+@import './styles/container';
+@import './styles/button';
+.app {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    @media (min-width: $desktop-breakpoint) {
+        font-size: 20px;
+    }
+}

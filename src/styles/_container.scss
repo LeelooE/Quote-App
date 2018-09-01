@@ -1,0 +1,19 @@
+.container {
+  margin: $m-size;
+  padding: $s-size;
+  background-color: $platinum;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-family: $mont;
+  @media (min-width: $desktop-breakpoint) {
+    margin: $xl-size;
+  }
+}
+
+.container__buttons {
+  display: flex;
+  flex-direction: row;
+  margin: $m-size;
+  justify-content: space-evenly;
+}
